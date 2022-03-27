@@ -62,7 +62,7 @@ body{
 nav{
 	grid-area: nav;
 	position: sticky;
-	background-image: url(../img/nav.jpg);
+	background: linear-gradient(to top, rgb(169, 217, 208), rgba(2, 73, 89, 1.0));
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 1;
@@ -77,6 +77,11 @@ nav{
 	display: flex;
 	justify-content: flex-start;
 	
+}
+
+.logo:hover{
+	transform: scale(1.2);
+	transition: all 1s;
 }
 
 nav ul{
@@ -139,6 +144,10 @@ main{
 
 }
 
+.parrafo:hover{
+	transform: rotateX(20deg);
+	transition: transform 2s;}
+
 #prNosotros{
 	grid-area: prNosotros;
 	
@@ -158,6 +167,11 @@ main{
 
 }
 
+.parrafoNosotros:hover{
+	transform: rotateX(20deg);
+	transition: transform 2s;
+}
+
 .imgObras{
 	display: flex;
 	align-content: center;
@@ -167,6 +181,11 @@ main{
 
 .imgObras img{
 	border-radius: 8px;
+}
+
+.imgObras img:hover{
+	transform: scale(1.2);
+	transition: all 2s;
 }
 
 .mainObras{
@@ -216,6 +235,11 @@ main{
 	margin: 1rem;
 }
 
+#contenedorVideo:hover{
+	transform: rotateX(20deg);
+	transition: transform 2s;
+
+}
 
 #mapa{
 	
@@ -226,6 +250,18 @@ main{
 	margin-bottom: 2rem;
 
 }
+
+#mapa:hover{
+	transform: scale(1.1);
+	transition: all 2s;
+
+}
+
+.mapa:hover{
+	transform: scale(1.2);
+	transition: 2s;
+}
+
 
 
 footer{
@@ -246,6 +282,10 @@ footer{
 	height: 3rem;
 }
 
+.iconosRedes img:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+}
 
 @media (min-width:768px){
 
