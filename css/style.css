@@ -265,7 +265,7 @@ main{
 
 
 footer{
-	background-color: rgb(161, 162, 166);
+	background: linear-gradient(to bottom,rgb(169, 217, 208), rgb(13, 13, 13));
 	grid-area: footer;
 	overflow: auto;
 }
